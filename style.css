@@ -1,131 +1,82 @@
-/* ====== STYLE.CSS for Hari Prasan Profile ====== */
-
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background: #f5f7fa;
+    background: #f4f6f9;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* Header */
-.header {
-    background: #1a73e8;
-    padding: 20px 0;
+header {
+    background: linear-gradient(135deg, #4b77ff, #6c9bff);
+    padding: 60px 20px;
     text-align: center;
-    color: #fff;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
-.title {
-    font-size: 32px;
-    font-weight: 600;
-}
-
-/* Containers */
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-}
-
-/* Hero Section */
-.hero {
-    padding: 40px 0;
-}
-
-.hero-content {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.profile-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+header .profile img {
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    border: 4px solid #1a73e8;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(255, 255, 255, 0.7);
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 
-.bio h2 {
-    font-size: 28px;
-    color: #1a73e8;
-    margin-bottom: 10px;
+header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 8px;
 }
 
-.bio p {
-    max-width: 500px;
-    font-size: 16px;
-    color: #555;
+header .tagline {
+    font-size: 1.1rem;
+    opacity: 0.9;
 }
 
-/* Detail Section */
-.details {
-    background: #ffffff;
-    padding: 40px 0;
-    margin-top: 20px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+/* Content Sections */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
 }
 
-.details h2 {
-    font-size: 26px;
-    margin-bottom: 20px;
-    color: #1a73e8;
-    text-align: center;
+.container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #2d4cff;
 }
 
-.detail-list {
+.container p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+.bio-list {
     list-style: none;
-    max-width: 600px;
-    margin: auto;
-    font-size: 17px;
-    color: #444;
+    padding-left: 0;
 }
 
-.detail-list li {
-    margin: 10px 0;
-    padding: 12px 16px;
-    background: #f0f4ff;
-    border-left: 4px solid #1a73e8;
-    border-radius: 6px;
+.bio-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
 }
 
-/* About Section */
-.about {
-    padding: 40px 0;
-}
-
-.about h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #1a73e8;
-    font-size: 26px;
-}
-
-.about p {
-    max-width: 700px;
-    margin: auto;
-    font-size: 17px;
-    color: #444;
-    line-height: 1.8;
+.bio-list li strong {
+    color: #2d4cff;
 }
 
 /* Footer */
-.footer {
+footer {
     text-align: center;
-    padding: 20px 0;
-    background: #1a73e8;
-    color: #fff;
+    padding: 20px;
+    color: #666;
     margin-top: 40px;
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
 }
